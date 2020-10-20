@@ -76,7 +76,7 @@ class Game {
           case "new" =>
             playing = true
             num = Random.nextInt(length)
-          case "exit" => running = false
+          case "e" => running = false
           case "quit" => playing = false
           case "options" => options = false
           case "roll" =>
