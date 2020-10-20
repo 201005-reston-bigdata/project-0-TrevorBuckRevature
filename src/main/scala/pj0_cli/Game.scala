@@ -76,28 +76,36 @@ class Game {
           case "new" =>
             playing = true
             num = Random.nextInt(length)
-          case "e" => running = false
-          case "quit" => playing = false
+            turnScore = 0
+            pScore = 0
+            cScore = 0
+          case "exit" => running = false
+          case "quit" =>
+            playing = false
+            turnScore = 0
           case "options" => options = false
           case "roll" =>
-            myRoll = 0
-            num += 1
-            num = num % length
-            myRoll += diceRolls(num).toInt
-            num += 1
-            num = num % length
-            myRoll += diceRolls(num).toInt
-            myRoll match {
-              case 7 =>
-                println("\n\n\nYOU ROLLED A 7!! DEVIL TAKES A TURN!!")
-                myRoll = 0
-                turnScore = 0
-                myTurn = false
+            if (playing) {
+              myRoll = 0
+              num += 1
+              num = num % length
+              myRoll += diceRolls(num).toInt
+              num += 1
+              num = num % length
+              myRoll += diceRolls(num).toInt
+              myRoll match {
+                case 7 =>
+                  println("\n\n\nYOU ROLLED A 7!! DEVIL TAKES A TURN!!")
+                  myRoll = 0
+                  turnScore = 0
+                  myTurn = false
 
-              case _ =>
-                turnScore += myRoll
-                println(s"\n\n\nYou rolled a $myRoll. Your total for the turn is $turnScore\n")
-            }
+                case _ =>
+                  turnScore += myRoll
+                  println(s"\n\n\nYou rolled a $myRoll. Your total for the turn is $turnScore\n")
+              }
+            } else println("Can't roll until you start a new game")
+
           case "save" =>
             println("\n\nScore Saved. Devil takes a turn.")
             pScore += turnScore
@@ -140,4 +148,5 @@ class Game {
 // TODO: Add in Devil AI (Optional)
 
 // TODO: Add in Database Reading features (win pct, last game, avg score)
+
 // TODO: Add comments to code
