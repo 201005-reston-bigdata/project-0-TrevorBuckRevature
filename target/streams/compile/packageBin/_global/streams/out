@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\Trevor\IdeaProjects\project0\target\scala-2.13\project0_2.13-0.1.jar ...[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	pj0_cli[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Trevor\IdeaProjects\project0\target\scala-2.13\classes\pj0_cli[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	pj0_cli\FileUtil$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Trevor\IdeaProjects\project0\target\scala-2.13\classes\pj0_cli\FileUtil$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	pj0_cli\FileUtil.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Trevor\IdeaProjects\project0\target\scala-2.13\classes\pj0_cli\FileUtil.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	pj0_cli\Game$$anon$1$ScoreMacroCodec$1.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Trevor\IdeaProjects\project0\target\scala-2.13\classes\pj0_cli\Game$$anon$1$ScoreMacroCodec$1.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	pj0_cli\Game$$anon$1$ScoreMacroCodec$2$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Trevor\IdeaProjects\project0\target\scala-2.13\classes\pj0_cli\Game$$anon$1$ScoreMacroCodec$2$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	pj0_cli\Game$$anon$1.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Trevor\IdeaProjects\project0\target\scala-2.13\classes\pj0_cli\Game$$anon$1.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	pj0_cli\Game.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Trevor\IdeaProjects\project0\target\scala-2.13\classes\pj0_cli\Game.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	pj0_cli\Main$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Trevor\IdeaProjects\project0\target\scala-2.13\classes\pj0_cli\Main$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	pj0_cli\Main$delayedInit$body.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Trevor\IdeaProjects\project0\target\scala-2.13\classes\pj0_cli\Main$delayedInit$body.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	pj0_cli\Main.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Trevor\IdeaProjects\project0\target\scala-2.13\classes\pj0_cli\Main.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	pj0_cli\Score$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Trevor\IdeaProjects\project0\target\scala-2.13\classes\pj0_cli\Score$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	pj0_cli\Score.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Trevor\IdeaProjects\project0\target\scala-2.13\classes\pj0_cli\Score.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m[0J
