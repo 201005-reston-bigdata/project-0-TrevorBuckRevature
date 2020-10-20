@@ -1,0 +1,48 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 11 products, 4 sources, 4 libraries[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/pj0_cli/FileUtil.scala, ${BASE}/src/main/scala/pj0_cli/Game.scala, ${BASE}/src/main/scala/pj0_cli/Main.scala, ${BASE}/src/main/scala/pj0_cli/Score.scala)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/pj0_cli/Game.scala), unmodified = ...),Set(${BASE}/target/scala-2.13/classes/pj0_cli/Game.class),Set(),API Changes: Set())[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/pj0_cli/Game.scala)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set(${BASE}/target/scala-2.13/classes/pj0_cli/Game.class)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(pj0_cli.Game)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set(${BASE}/src/main/scala/pj0_cli/Game.scala)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(pj0_cli.Game)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/main/scala/pj0_cli/Game.scala)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: pj0_cli.Game[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Trevor\Documents\revature\upload\project0\project-0-TrevorBuckRevature\target\scala-2.13\classes ...[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.4.0:compile for Scala 2.13.3[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 3931efd2 for Scala compiler version 2.13.3[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Trevor\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Trevor\Documents\revature\upload\project0\project-0-TrevorBuckRevature\target\scala-2.13\classes;C:\Users\Trevor\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\mongodb\scala\mongo-scala-driver_2.13\2.9.0\mongo-scala-driver_2.13-2.9.0.jar;C:\Users\Trevor\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\mongodb\scala\mongo-scala-bson_2.13\2.9.0\mongo-scala-bson_2.13-2.9.0.jar;C:\Users\Trevor\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\mongodb\mongodb-driver-async\3.12.2\mongodb-driver-async-3.12.2.jar;C:\Users\Trevor\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar;C:\Users\Trevor\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\mongodb\bson\3.12.2\bson-3.12.2.jar;C:\Users\Trevor\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\mongodb\mongodb-driver-core\3.12.2\mongodb-driver-core-3.12.2.jar[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from pj0_cli.Game...[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: pj0_cli.Game[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(pj0_cli.Game)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of pj0_cli.Main. This dependency is not being considered for invalidation.[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(pj0_cli.Game,ModifiedNames(changes = UsedName(finalize,[Default]))) invalidates 1 classes due to The pj0_cli.Game has the following regular definitions changed:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(finalize,[Default]).[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(pj0_cli.Game)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m        [0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mFinal step, transitive dependencies:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 2.6294081 s[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m[0J

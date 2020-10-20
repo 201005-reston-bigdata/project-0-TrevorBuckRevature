@@ -19,6 +19,7 @@ class Game {
     println("New : Starts new game")
     println("Exit: Close the program")
     println("Options: Toggles On/Off option menus")
+    println("Stats: Look at win percentage, the last score, and avg scores.")
   }
 
   def turnOptions(): Unit = {
@@ -84,6 +85,9 @@ class Game {
             playing = false
             turnScore = 0
           case "options" => options = false
+          case "stats" =>
+            println("Pulling from database....")
+
           case "roll" =>
             if (playing) {
               myRoll = 0
