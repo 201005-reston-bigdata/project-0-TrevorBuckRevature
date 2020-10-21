@@ -10,6 +10,10 @@ import scala.concurrent.Await
 import scala.concurrent.duration.{Duration, SECONDS}
 import org.mongodb.scala.bson.codecs.Macros._
 import org.bson.codecs.configuration.CodecRegistries.{fromProviders, fromRegistries}
+import org.mongodb.scala.model.Sorts._
+
+import org.mongodb.scala.model.Filters._
+
 
 class Game {
 
@@ -19,7 +23,7 @@ class Game {
     println("New : Starts new game")
     println("Exit: Close the program")
     println("Options: Toggles On/Off option menus")
-    println("Stats: Look at win percentage, the last score, and avg scores.")
+    println("Stats: Look at the results of the last game, as well as the number of wins vs losses")
   }
 
   def turnOptions(): Unit = {
@@ -86,7 +90,15 @@ class Game {
             turnScore = 0
           case "options" => options = false
           case "stats" =>
-            println("Pulling from database....")
+            println("Pulling from database....\n\n")
+            println("Entry from last game:")
+            printResults(collection.find().sort(descending("_id")).limit(1))
+            val wins = collection.countDocuments(equal("outcome", "Win"))
+            val losses = collection.countDocuments(equal("outcome", "Loss"))
+            println("\nNumber of Wins: ")
+            printResults(wins)
+            println("Number of Losses:")
+            printResults(losses)
 
           case "roll" =>
             if (playing) {
@@ -121,8 +133,9 @@ class Game {
         if (options && myTurn && playing) printScore(pScore, cScore)
       } else {
         // TODO: Devils Turn
-        cScore += 12
-        println("Devil rolled a 12")
+        val x = Random.nextInt(31) - 1
+        cScore += x
+        println(s"Devil rolled a $x")
         printScore(pScore, cScore)
         myTurn = true
       }
@@ -151,6 +164,5 @@ class Game {
 
 // TODO: Add in Devil AI (Optional)
 
-// TODO: Add in Database Reading features (win pct, last game, avg score)
 
-// TODO: Add comments to code
+
